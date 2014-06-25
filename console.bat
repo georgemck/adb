@@ -5,6 +5,9 @@ adb devices
 #Install an app to connected device
 adb install  C:\Users\georgemck\Desktop\appname.apk
 
+#Uninstall an app from connected device
+adb shell pm uninstall -k com.domain.appname
+
 #Check minimum Android SDK
 adb shell getprop ro.build.version.sdk
 
