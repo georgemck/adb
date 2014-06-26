@@ -21,7 +21,7 @@ adb shell getprop ro.build.version.release
 #View all device properties
 adb shell getprop
 
-#Start an app on connected device (use -D instead of -n for debugger)
+#launch / Start an app on connected device (use -D instead of -n for debugger)
 adb shell am start -n com.domain.appname/com.domain.appname.package
 
 #Stop an app on connected device
