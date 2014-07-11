@@ -32,3 +32,6 @@ adb logcat
 
 #Stop the app and clear stored data 
 adb shell pm clear com.domain.appname.package
+
+#list all apps via adb shell
+pm list packages -f
